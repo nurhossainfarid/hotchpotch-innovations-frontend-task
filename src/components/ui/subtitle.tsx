@@ -2,23 +2,23 @@ import { TFontSize, TFontSizeMap } from "@/types/types";
 
 type SubTitleProps = {
   text: string;
-  fontSize?: keyof TFontSize; 
+  fontSize?: keyof TFontSize;
   color?: string;
   textAlign?: string;
   margin?: string;
 };
 
-const SubTitle: React.FC<SubTitleProps> = ({
+const SubTitle = ({
   text,
-  fontSize = "base", 
+  fontSize = "base",
   color = "rgb(240, 240, 240)",
-}) => {
+}: SubTitleProps) => {
   return (
     <h1
       style={{
         fontFamily: "Inter",
         fontWeight: 500,
-        fontSize: TFontSizeMap[fontSize], 
+        fontSize: TFontSizeMap[fontSize],
         color: color,
         lineHeight: "1.2",
       }}

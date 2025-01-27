@@ -8,11 +8,11 @@ type TitleProps = {
   margin?: string;
 };
 
-const Title: React.FC<TitleProps> = ({
+const Title = ({
   text,
   fontSize = "lg",
   color = "rgb(240, 240, 240)",
-}) => {
+}: TitleProps) => {
   return (
     <h1
       style={{
