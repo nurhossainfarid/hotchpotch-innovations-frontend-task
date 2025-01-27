@@ -1,22 +1,21 @@
-export interface ITask {
-  title: string;
-  description: string;
-  dueDate: string;
-  isCompleted: boolean;
-  priority: "High" | "Medium" | "Low";
-  member: string | null;
-}
+export type TFontSize = {
+  xs: "12px";
+  sm: "14px";
+  base: "16px",
+  md: "18px";
+  lg: "20px";
+  xl: "24px";
+  xxl: "30px";
+  xxxl: "36px";
+};
 
-export interface ITaskState {
-  tasks: ITask[];
-  filter: "All" | "High" | "Medium" | "Low";
-}
-
-export interface IUser {
-  id: string;
-  name: string;
-}
-
-export interface IUserState {
-  users: IUser[];
-}
+export const TFontSizeMap: TFontSize = {
+  xs: "12px",
+  sm: "14px",
+  base: "16px",
+  md: "18px",
+  lg: "20px",
+  xl: "24px",
+  xxl: "30px",
+  xxxl: "36px",
+};

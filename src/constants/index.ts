@@ -1,0 +1,1 @@
+export const headerMenu = ["Demos", "About", "Blog", "Pages", "Contact"];
