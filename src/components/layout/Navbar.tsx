@@ -13,15 +13,21 @@ const Navbar = () => {
       {headerMenu?.map((menu) => (
         <SubTitle text={menu} fontSize="base" />
       ))}
-      <div className="ml-auto">
-        <Button
-        >
-          Get Started Free
-        </Button>
+      <div className="ml-auto flex gap-10">
+        <div className="flex gap-5">
+          <Button variant={"outline"} className="text-white">
+            Sign in
+          </Button>
+          <Button className="text-white">Get Started Free</Button>
+        </div>
         <ModeToggle />
       </div>
     </nav>
   );
 };
+
+// background: linear-gradient(94.25deg, #5C7FFF 0%, #CB5CFF 100%);
+
+
 
 export default Navbar;
