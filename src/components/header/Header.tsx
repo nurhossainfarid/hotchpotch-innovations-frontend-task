@@ -6,6 +6,7 @@ const Header = ({ theme }) => {
     <div>
       <Navbar theme={theme} />
       <NavbarContent theme={theme} />
+      <hr />
     </div>
   );
 };
