@@ -10,7 +10,7 @@ const NavbarContent = ({ theme }) => {
     <div className="flex flex-col items-center justify-center my-10">
       <Title text="Write better" fontSize="4xl" color={textColor} />
       <Title text="content for your" fontSize="4xl" color={textColor} />
-      <div className="bg-gradient-to-r from-tangerine-red from-0% to-sunburst-yellow to-100% bg-clip-text mb-6">
+      <div className="bg-gradient-to-r from-tangerine-red from-0% to-sunburst-yellow to-100% bg-clip-text mb-10">
         <p className="text-6xl text-transparent font-bold underline">
           Facebook Ads
         </p>

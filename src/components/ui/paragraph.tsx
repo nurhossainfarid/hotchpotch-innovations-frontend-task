@@ -26,7 +26,6 @@ const Paragraph = ({
         textAlign: textAlign,
         color: color,
         opacity: 0.8,
-        margin: "10px",
       }}
     >
       {text}
