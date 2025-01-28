@@ -12,6 +12,7 @@ type ParagraphProps = {
 const Paragraph = ({
   text,
   fontSize = "base",
+  color = "white",
   width,
   textAlign,
 }: ParagraphProps) => {
@@ -23,9 +24,9 @@ const Paragraph = ({
         fontWeight: 400,
         width: width,
         textAlign: textAlign,
-        color: "#FAFAFA",
+        color: color,
         opacity: 0.8,
-        margin: "10px"
+        margin: "10px",
       }}
     >
       {text}
