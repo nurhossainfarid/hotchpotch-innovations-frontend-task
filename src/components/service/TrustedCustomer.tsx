@@ -1,5 +1,5 @@
 import { logoOptions } from "@/constants";
-import Title from "./ui/title";
+import Title from "../ui/title";
 
 const TrustedCustomer = () => {
   return (

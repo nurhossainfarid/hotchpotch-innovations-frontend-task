@@ -24,7 +24,6 @@ const MainLayout = () => {
       <div>
         <Header theme={theme} />
       </div>
-      <TrustedCustomer />
       <Service />
       <Outlet />
     </div>

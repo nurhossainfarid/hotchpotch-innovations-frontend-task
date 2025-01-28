@@ -4,6 +4,8 @@ import Result2 from "../../assets/result2.png";
 import { Button } from "../ui/button";
 import Paragraph from "../ui/paragraph";
 import Title from "../ui/title";
+import TrustedCustomer from "./TrustedCustomer";
+import WebSiteService from "../../assets/webbuild.png";
 
 const Service = () => {
   return (
@@ -11,6 +13,7 @@ const Service = () => {
       className="flex flex-col items-center justify-center gap-16 mx-auto py-10"
       style={{ width: "1300px" }}
     >
+      <TrustedCustomer />
       <div className="flex flex-col md:flex-row mx-auto justify-evenly">
         <div className="w-full">
           <img src={Result1} className="" alt="" />
@@ -78,6 +81,39 @@ const Service = () => {
               </div>
             </div>
           ))}
+        </div>
+        <Button variant={"outline"} className="border-none">
+          See all 54 available tools
+        </Button>
+      </div>
+      <hr />
+      <div className="flex flex-col items-center justify-center gap-5">
+        <div className="flex flex-col items-center justify-center">
+          <Title text="Mixland helps you" fontSize="2xl" />
+          <Title text="build beautiful website" fontSize="2xl" />
+        </div>
+        <div className="flex flex-col md:flex-row items-start justify-center gap-16">
+          <div className="flex flex-col gap-5">
+            <Button className="text-white text-md text-left">Blog Headlines</Button>
+            <Button className="text-white text-md" variant={"outline"}>
+              Blog Intros
+            </Button>
+            <Button className="text-white text-md" variant={"outline"}>
+              Content Rewriter
+            </Button>
+            <Button className="text-white text-md" variant={"outline"}>
+              Facebook Ads
+            </Button>
+            <Button className="text-white text-md" variant={"outline"}>
+              Product Description
+            </Button>
+            <Button className="text-white text-md" variant={"outline"}>
+              PAS Copywriting Formula
+            </Button>
+          </div>
+          <div>
+            <img src={WebSiteService} alt="" />
+          </div>
         </div>
       </div>
     </div>
