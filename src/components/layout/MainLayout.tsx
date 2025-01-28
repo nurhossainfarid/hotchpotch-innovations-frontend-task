@@ -9,6 +9,7 @@ import Title from "../ui/title";
 import Paragraph from "../ui/paragraph";
 import { Button } from "../ui/button";
 import Service from "../service/Service";
+import CustomerReview from "../customerReview/CustomerReview";
 
 const MainLayout = () => {
   const { theme } = useTheme();
@@ -25,6 +26,7 @@ const MainLayout = () => {
         <Header theme={theme} />
       </div>
       <Service />
+      <CustomerReview />
       <Outlet />
     </div>
   );

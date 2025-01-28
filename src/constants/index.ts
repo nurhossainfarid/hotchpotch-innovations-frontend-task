@@ -73,3 +73,70 @@ export const toolData = [
     description: "Write a better blog title with our AI tool.",
   },
 ];
+
+export const customerReviews = [
+  {
+    id: "c1",
+    name: "Darrell Steward",
+    email: "@darrels",
+    comment:
+      "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save",
+    about: "#another",
+  },
+  {
+    id: "c2",
+    name: "Leslie Alexander",
+    email: "@lesslie",
+    comment:
+      "Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.",
+    about: "#postcrafts",
+  },
+  {
+    id: "c3",
+    name: "Jenny Wilson",
+    email: "@jennywilson",
+    comment:
+      "This is a top quality product. No need to think twice before making it live on web.",
+    about: "#make_it_fast",
+  },
+  {
+    id: "c4",
+    name: "Kristin Watson",
+    email: "@darrels",
+    comment:
+      "Finally, I’ve found a template that covers all bases for a bootstrapped startup. We were able to launch in days, not months.",
+    about: "#postcrafts",
+  },
+  {
+    id: "c5",
+    name: "Guy Hawkins",
+    email: "@jennywilson",
+    comment:
+      "This is a top quality product. No need to think twice before making it live on web.",
+    about: "#make_it_fast",
+  },
+  {
+    id: "c6",
+    name: "Marvin McKinney",
+    email: "@jennywilson",
+    comment:
+      "With Postcrafts, it’s quicker with the customer, the customer is more ensured of getting exactly what they ordered, and I’m all for the efficiency.",
+    about: "#dev #tools",
+  },
+  {
+    id: "c7",
+    name: "Annette Black",
+    email: "@jennywilson",
+    comment:
+      "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
+    about: "#another",
+  },
+  {
+    id: "c8",
+    name: "Floyd Miles",
+    email: "@jennywilson",
+    comment:
+      "My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
+    about: "#postcrafts",
+  },
+];

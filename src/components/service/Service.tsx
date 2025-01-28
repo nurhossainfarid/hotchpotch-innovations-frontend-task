@@ -86,13 +86,12 @@ const Service = () => {
           See all 54 available tools
         </Button>
       </div>
-      <hr />
       <div className="flex flex-col items-center justify-center gap-5">
         <div className="flex flex-col items-center justify-center">
           <Title text="Mixland helps you" fontSize="2xl" />
           <Title text="build beautiful website" fontSize="2xl" />
         </div>
-        <div className="flex flex-col md:flex-row items-start justify-center gap-16">
+        <div className="flex flex-col md:flex-row items-start justify-center gap-16 py-10">
           <div className="flex flex-col gap-5">
             <Button className="text-white text-md text-left">Blog Headlines</Button>
             <Button className="text-white text-md" variant={"outline"}>
