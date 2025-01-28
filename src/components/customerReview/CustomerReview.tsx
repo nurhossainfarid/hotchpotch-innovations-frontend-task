@@ -1,7 +1,7 @@
 import { customerReviews } from "@/constants";
 import Paragraph from "../ui/paragraph";
 import Title from "../ui/title";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import SubTitle from "../ui/subtitle";
 
 const CustomerReview = () => {
@@ -48,6 +48,7 @@ const CustomerReview = () => {
           ))}
         </div>
       </div>
+      <hr />
     </div>
   );
 };
